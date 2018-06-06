@@ -1,6 +1,6 @@
 {
   "name": "nanocomponent-adapters-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nanocomponent adapter for Angular",
   "main": "index.js",
   "scripts": {
