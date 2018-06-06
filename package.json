@@ -1,0 +1,32 @@
+{
+  "name": "nanocomponent-adapters-angular",
+  "version": "1.0.0",
+  "description": "Nanocomponent adapter for Angular",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm test && standard-version && git push origin master && npm publish",
+    "test": "standard",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emkay/nanocomponent-adapters-angular.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Michael Matuzak",
+    "email": "mmatuzak@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emkay/nanocomponent-adapters-angular/issues"
+  },
+  "homepage": "https://github.com/emkay/nanocomponent-adapters-angular#readme",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "standard-version": "^4.4.0",
+    "weallbehave": "^1.2.0",
+    "weallcontribute": "^1.0.8"
+  }
+}
